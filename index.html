@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stefano ficalbi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" style="background-color: black;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Stefano Ficalbi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#bio">Biografia</a>
+            <a class="nav-link" href="#carouselExampleIndicators">Galleria</a>
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Home-->
+    <div
+      id="home"
+      style="
+        min-height: 100vh;
+        padding-inline: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+      "
+    >
+      <div style="padding-left: 30px">
+        <h1 style="font-size: 80px">Stefano Ficalbi</h1>
+      </div>
+    </div>
+
+    <!--Biografia-->
+      
+        <div class="container text-center" id="bio">
+          <h2 class="pb-2 border-bottom" style="text-align: center">
+            Biografia
+          </h2>
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <h3 class="fw-bold mb-0 fs-4">Italian Bio</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed impedit perferendis animi laboriosam delectus repellendus quo eveniet, nostrum ab possimus esse laborum laudantium eum officia dolore dolor earum labore doloremque!
+              </p>
+            </div>
+            <div class="col-4">
+              <h3 class="fw-bold mb-0 fs-4">English Bio</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae aliquid quia nesciunt eveniet repellendus dolore tempore quis nulla, quos vel mollitia voluptatum animi, excepturi repellat tempora reprehenderit aspernatur eaque.
+              </p>
+            </div>
+          </div>
+        </div>
+
+    <!--Galleria-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/background.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/background2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/background3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Contacts-->
+    <div
+      id="contacts"
+      class="d-flex pb-2 border-top flex-column align-items-center justify-content-center"
+      style="min-height: 100vh;"
+    >
+      <h1 style="color: #dacfc1; margin-bottom: 20px; font-size: 50px">
+        Contacts
+      </h1>
+      <!-- First container-->
+      <div class="main-container-contacts" style="width: 450px">
+        <div
+          class="container-ret d-flex flex-column align-items-center container-contact"
+          style="
+            background-color: #dacfc1;
+            width: 100%;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
+          "
+        >
+          
+        <div
+          class="d-flex flex-row align-items-center container-contact"
+          style="width: 100%; justify-content: space-between"
+        >
+          <div
+            class="container-ret d-flex flex-column align-items-center container-contact"
+            style="
+              background-color: #dacfc1;
+              width: 200px;
+              padding: 20px;
+            "
+          >
+            <div class="div-img">
+              <img src="images/icons8-mail-50.png" alt="" />
+            </div>
+            <h2>Email</h2>
+            <a style="text-decoration: none; color: black" href="mailto:stefano@posta.net"
+              >stefano@posta.net</a
+            >
+          </div>
+          <div
+            class="container-ret d-flex flex-column align-items-center container-contact"
+            style="
+              background-color: #dacfc1;
+              width: 200px;
+              padding: 20px;
+            "
+          >
+            <div class="div-img">
+              <img src="images/icons8-phone-50.png" alt="" />
+            </div>
+            <h2>Phone</h2>
+            <a style="text-decoration: none; color: black" href="tel:3257777789"
+              >3257777789</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
